@@ -1,0 +1,73 @@
+body{
+	background-image: url(Fondoprin.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+nav{
+	background-color: #8B4513;
+}
+nav ul{
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font-size: 18px;
+
+}
+nav ul li a{
+	text-decoration: none;
+    color: white;
+	background-color: #8B4513;
+	margin: 20px;
+}
+li:hover{
+	background-color: yellow;
+}
+img{
+	height: 300px;
+	width: 100%;
+}
+p{
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+h2{
+	color: yellow;
+	text-align: center;
+}
+header{
+	float: left;
+	margin-right: 30%;
+}
+section{
+	position: static;
+    color: white;
+    margin-right: 30%
+}
+aside{
+	position: fixed;
+    float:right;
+    background-color: #8B4513;
+    color: white;
+    overflow: hidden;
+    margin-left: 70%;
+    padding: 1%;
+    width: 25%;
+    height: 500px;
+}
+div#pie{
+	background-color: #8B4513;
+	width: 98%;
+	height: 80px;
+	font-size: 15px;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+}
